@@ -135,9 +135,9 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 2%;
     font-size: 14px;
@@ -151,6 +151,7 @@ footer nav a {
 div nav {
     display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
@@ -160,8 +161,8 @@ div nav {
   }
 
 div nav a {
-	margin: 30px 15px 0 40px;
-  color: grey;
+	margin: 20px 0px;
+  color: white;
   font-size: 14px;
   text-decoration: none;
 }
@@ -228,3 +229,7 @@ h2 {
     font-size: 1.7em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
+}
+.link{
+    color:black;
+}
